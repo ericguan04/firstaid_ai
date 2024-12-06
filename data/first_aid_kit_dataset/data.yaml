@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['antiseptic wipe', 'bandage', 'cotton', 'first aid kit', 'first aid supplies', 'gauze', 'gloves', 'mask', 'medical cap', 'scissors', 'tweezers', 'waste']
+
+roboflow:
+  workspace: biomedical-engineering
+  project: first-aid-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/biomedical-engineering/first-aid-detection/dataset/3
